@@ -6,13 +6,24 @@ export default function JoeyDrop() {
   const [dropVal, setDropValue] = useState<JSX.Element>();
   const [isDropped, setIsDropped] = useState<boolean>(false);
 
+  const options = ['option 1', 'option 2', 'option C', 'option D'];
+
+  const optionDivs: JSX.Element[] = [];
+
+  function optionClick(option: string) { 
+    alert(option);
+    setIsDropped(false);
+  }
+
+  options.forEach((option) => {
+    optionDivs.push(<div className="joeyDropDownElement" onClick={()=>optionClick(option)}>{option}</div>)
+  });
+
   var dropDown = (<div className="joeyDropDown">
-      <div>option 1</div>
-      <div>option 2</div>
-      <div>option C</div>
-      <div>option D</div>
+    {optionDivs}
     </div>
   );
+
 
   useEffect(() => {
     if (isDropped) {
@@ -28,6 +39,9 @@ export default function JoeyDrop() {
   }
 
   return (
-    <div onClick={handleClick}><span>dropMe</span>{dropVal}</div>
+   <div>
+    <div onClick={handleClick}><span>dropMe</span></div>
+    {dropVal}
+   </div>
   );
 }
