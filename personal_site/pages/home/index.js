@@ -34,6 +34,66 @@ export default function HomePage() {
                 <h3>Item4</h3>
                 <p>Hello my friends how are you?</p>
             </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
+            <div class="contentItem">
+                <h3>Item4</h3>
+                <p>Hello my friends how are you?</p>
+            </div>
         </div>
         <div class="bottomBorder">
             <a class="bottomLink resume" href="./Joseph_D_Smith_resume.pdf">Resume</a>
