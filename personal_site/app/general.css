@@ -1,3 +1,23 @@
 .joeyDropDown {
     color: red;
 }
+
+.bottomBorder {
+    /* affix to bottom of page */
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    /* TODO make height much taller for large screens and smaller for small ones */
+    height:6em;
+    width:100%;
+
+    text-align: center;
+
+    /* figure out what to do when it gets very small
+    or maye not. maybe that's out of scope of what I care about */
+    .bottomLink {
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: x-large;
+    }
+}
