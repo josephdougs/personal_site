@@ -45,3 +45,9 @@
     text-align: center;
     overflow-y: auto;
 }
+
+.sideAnimationOverlay {
+    .title {
+        font-size: xx-large;
+    }
+}

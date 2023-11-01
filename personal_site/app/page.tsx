@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import JoeyDrop from './mainApp'
-import HomePage from '../pages/home/index.js';
+import HomePage from '../pages/home/index';
 
 export default function Home() {
   return (
