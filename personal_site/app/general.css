@@ -44,6 +44,15 @@
 .mainContent {
     text-align: center;
     overflow-y: auto;
+
+    .gamesContent {
+        .gamesIFrame {
+            /* todo make width cleaner */
+            width: 100%;
+            /* who cares it if has a fixed height? So does pico8 */
+            height: 650px;
+        }
+    }
 }
 
 .sideAnimationOverlay {
